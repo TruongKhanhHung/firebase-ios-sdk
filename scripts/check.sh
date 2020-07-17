@@ -296,3 +296,7 @@ if [[ "$CHECK_DIFF" == true ]]; then
   lint_cmd+=("${START_SHA}")
 fi
 "${lint_cmd[@]}"
+
+# Check cmake includes, and unit test check_cmake_includes.py script itself.
+"${top_dir}/scripts/check_cmake_includes_test.py"
+"${top_dir}/scripts/check_cmake_includes.sh"
