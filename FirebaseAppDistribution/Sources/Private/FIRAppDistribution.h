@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "FIRAppDistribution.h"
-#import "FIRAppDistributionAppDelegateInterceptor.h"
+#import "FirebaseAppDistribution/Sources/FIRAppDistributionAppDelegateInterceptor.h"
+#import "FirebaseAppDistribution/Sources/Public/FIRAppDistribution.h"
 
 #define STR(x) STR_EXPAND(x)
 #define STR_EXPAND(x) #x

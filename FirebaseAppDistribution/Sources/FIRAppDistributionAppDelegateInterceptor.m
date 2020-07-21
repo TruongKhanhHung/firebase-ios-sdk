@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "FIRAppDistributionAppDelegateInterceptor.h"
-#import "FIRFADLogger+Private.h"
+#import "FirebaseAppDistribution/Sources/FIRAppDistributionAppDelegateInterceptor.h"
+#import "FirebaseAppDistribution/Sources/FIRFADLogger.h"
 #import "FirebaseCore/Sources/Private/FirebaseCoreInternal.h"
 
 #import <AuthenticationServices/AuthenticationServices.h>
